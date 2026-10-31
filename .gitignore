@@ -24,3 +24,6 @@ yarn-error.log*
 # OS Files
 .DS_Store
 Thumbs.db
+# Generated database and full-system backups
+/backend/backups/*.json.gz
+/backend/backups/*.zip
